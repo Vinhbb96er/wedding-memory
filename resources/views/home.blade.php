@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Vĩnh & Uyên - Happy Wedding</title>
 
     <link rel="icon" href="images/favicon.jpg">
@@ -22,8 +23,6 @@
     <!-- <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" type="text/css"> -->
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owlcarousel/owl.carousel.css" type="text/css">
-
-    <link rel="stylesheet" href="css/owlcarousel/owl.theme.css" type="text/css">
     <!-- Icon -->
     <link rel="stylesheet" href="css/fonts/fontello/css/fontello.css" type="text/css" media="screen">
 

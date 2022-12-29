@@ -29,7 +29,7 @@
                                 <div class="timeline-step-bar">
                                     <div class="timeline-step-progress" style="width: 35%"></div>
                                     @foreach($data['wedding_events'] as $wedding_event)
-                                        <div class="timeline-step @if($wedding_event['is_active']){{ 'timeline-step-is-active' }}@endif" data-timeline-date-time="{{ $wedding_event['date_time'] }}">
+                                        <div class="timeline-step @if($wedding_event['is_active']){{ 'timeline-step-is-active' }}@endif" data-timeline-date-time="{{ $wedding_event['date_time'] }} +07">
                                             <div class="timeline-step-data">{{ $wedding_event['title'] }}</div>
                                             <div class="event-circle-check">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">

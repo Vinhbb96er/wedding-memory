@@ -6,20 +6,20 @@
                     <h1>
                         OUR MEMORIES
                     </h1>
-                    <!-- <p class="blurb memory-note">
+                    <p class="blurb memory-note">
                         Mỗi người đều có một <b>thanh xuân</b> đặc biệt của riêng mình. <br/>
                         Có những <b>thanh xuân</b> trôi qua thật <b>dịu dàng</b>. <br/>
                         Nhưng có những <b>thanh xuân</b> lại day dứt đến <b>khắc cốt ghi tâm</b>. <br/>
                         Và tôi cũng có một <b>thanh xuân</b> của riêng mình ....
-                    </p> -->
+                    </p>
 
                     <div class="heart-divider">
-                        <!-- <i class="hashtag">#ilyieu #myMJ</i> -->
+                        <i class="hashtag">#ilyieu</i>
                         <span class="grey-line"></span>
                         <i class="de-icon-heart pink-heart"></i>
                         <i class="de-icon-heart grey-heart"></i>
                         <span class="grey-line"></span>
-                        <!-- <i class="hashtag">#shmily</i> -->
+                        <i class="hashtag">#shmily</i>
                     </div>
                 </div>
             </div>

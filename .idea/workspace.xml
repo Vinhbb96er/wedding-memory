@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cd9869c-d597-4e60-982a-3beaacf446c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/memories/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/single-u.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/single-u.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/single-v.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/single-v.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/weddings/sliders/wedding_slider_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/single-u.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/single-u.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/single-v.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/single-v.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/weddings/sliders/wedding_slider_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/memories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/memories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/wedding.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wedding.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672065886380</updated>
       <workItem from="1672065887764" duration="46000" />
-      <workItem from="1672295274252" duration="7549000" />
+      <workItem from="1672295274252" duration="8838000" />
     </task>
     <servers />
   </component>

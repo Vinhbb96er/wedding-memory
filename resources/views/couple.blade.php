@@ -40,7 +40,7 @@
                                         <i class="de-icon-heart pink-heart"></i>
                                         <i class="de-icon-heart white-heart"></i>
                                     </div>
-                                    <div class="banner-text red small" style="letter-spacing:3px;">
+                                    <div class="banner-text red small banner-couple-name" style="letter-spacing:3px;">
                                         <h4>*** Tú Uyên ***</h4>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                         <i class="de-icon-heart pink-heart"></i>
                                         <i class="de-icon-heart white-heart"></i>
                                     </div>
-                                    <div class="banner-text red small" style="letter-spacing:3px;">
+                                    <div class="banner-text red small banner-couple-name" style="letter-spacing:3px;">
                                         <h4>*** Quang Vĩnh ***</h4>
                                     </div>
                                 </div>

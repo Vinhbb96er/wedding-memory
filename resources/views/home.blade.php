@@ -44,124 +44,138 @@
 </head>
 
 <body>
-<div class="pace  pace-inactive">
-    <div class="pace-progress" data-progress-text="100%" data-progress="99"
-         style="transform: translate3d(100%, 0px, 0px);">
-        <div class="pace-progress-inner"></div>
-    </div>
-    <div class="pace-activity"></div>
-</div>
-<!--PRELOADER-->
-<div id="preloader">
-
-    <div class="alignment">
-        <div class="v-align center-middle">
-
-            <!-- LEFT HEART -->
-            <div class="heart-animation">
-                <i class="de-icon-heart"></i>
+<div class="curtain">
+    <div class="curtain__wrapper">
+        <div class="gift-container">
+            <div class="bubble">
+                <div class="bubble-content">Click me...!</div>
             </div>
-
-            <!-- RIGHT HEART -->
-            <div class="heart-animation-reverse">
-                <i class="de-icon-heart"></i>
+            <div class="gift">
+                <img src="./images/icons/gift.gif"/>
             </div>
-
         </div>
-    </div>
+        <div class="curtain__panel curtain__panel--left curtain-close"></div> <!-- curtain__panel -->
 
-</div>
-<!--END of PRELOADER-->
+        <div class="pace  pace-inactive">
+            <div class="pace-progress" data-progress-text="100%" data-progress="99"
+                 style="transform: translate3d(100%, 0px, 0px);">
+                <div class="pace-progress-inner"></div>
+            </div>
+            <div class="pace-activity"></div>
+        </div>
+        <!--PRELOADER-->
+        <div id="preloader">
 
-<!-- SIDE NAVBAR -->
-<nav class="sb-slidebar sb-right sb-style-push">
+            <div class="alignment">
+                <div class="v-align center-middle">
 
-    <div id="side-navbar-header">
-
-        <div id="logo-inner-wrapper">
-            <!-- LOGO -->
-            <div class="logo-wrapper">
-                <!-- CSS LOGO -->
-                <a href="">
-                    <div class="css-logo rounded">
-                        <div class="css-logo-text">
-                            <strong>V</strong><i class="de-icon-heart-1"></i><strong>U</strong>
-                        </div>
+                    <!-- LEFT HEART -->
+                    <div class="heart-animation">
+                        <i class="de-icon-heart"></i>
                     </div>
-                </a>
 
-            </div>
-            <!-- END of LOGO -->
-        </div>
-
-        <div id="close-inner-wrapper">
-            <a href="#" id="close-button"><i class="de-icon-cancel-2"></i></a>
-        </div>
-
-    </div>
-
-</nav> <!-- END of SIDE NAVBAR -->
-
-
-
-<!-- SLIDEBAR CONTENT WRAPPER -->
-<div id="sb-site">
-
-    <!-- NAVIGATION -->
-    <header>
-        <nav id="menuicon-bar" class="fluid-width menuicon-right">
-
-            <!-- LOGO -->
-            <div class="logo-outter-wrapper">
-                <div class="logo-wrapper">
-                    <!-- CSS LOGO -->
-                    <a href="">
-                        <div class="css-logo rounded">
-                            <div class="css-logo-text">
-                                <strong>V</strong><i class="de-icon-heart-1"></i><strong>U</strong>
-                            </div>
-                        </div>
-                    </a>
+                    <!-- RIGHT HEART -->
+                    <div class="heart-animation-reverse">
+                        <i class="de-icon-heart"></i>
+                    </div>
 
                 </div>
             </div>
-            <!-- END of LOGO -->
 
-            <!-- RESET FLOAT -->
-            <div class="clearboth"></div>
+        </div>
+        <!--END of PRELOADER-->
 
-            <!-- STICKY MENU ICON -->
-            <div id="sticky-menuicon">
-                <a href="#" class="sb-toggle-right">
-                    <i class="de-icon-menu"></i>
-                </a>
+        <!-- SIDE NAVBAR -->
+        <nav class="sb-slidebar sb-right sb-style-push">
+
+            <div id="side-navbar-header">
+
+                <div id="logo-inner-wrapper">
+                    <!-- LOGO -->
+                    <div class="logo-wrapper">
+                        <!-- CSS LOGO -->
+                        <a href="">
+                            <div class="css-logo rounded">
+                                <div class="css-logo-text">
+                                    <strong>V</strong><i class="de-icon-heart-1"></i><strong>U</strong>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <!-- END of LOGO -->
+                </div>
+
+                <div id="close-inner-wrapper">
+                    <a href="#" id="close-button"><i class="de-icon-cancel-2"></i></a>
+                </div>
+
             </div>
 
-        </nav>
+        </nav> <!-- END of SIDE NAVBAR -->
 
-    </header><!-- END of NAVIGATION -->
+        <!-- SLIDEBAR CONTENT WRAPPER -->
+        <div id="sb-site">
 
-    @include('slider')
+            <!-- NAVIGATION -->
+            <header>
+                <nav id="menuicon-bar" class="fluid-width menuicon-right">
 
-    <!--CONTENT SECTION-->
-    <section id="content">
+                    <!-- LOGO -->
+                    <div class="logo-outter-wrapper">
+                        <div class="logo-wrapper">
+                            <!-- CSS LOGO -->
+                            <a href="">
+                                <div class="css-logo rounded">
+                                    <div class="css-logo-text">
+                                        <strong>V</strong><i class="de-icon-heart-1"></i><strong>U</strong>
+                                    </div>
+                                </div>
+                            </a>
 
-        @include('wedding')
+                        </div>
+                    </div>
+                    <!-- END of LOGO -->
 
-        @include('countdown')
+                    <!-- RESET FLOAT -->
+                    <div class="clearboth"></div>
 
-        @include('memories')
+                    <!-- STICKY MENU ICON -->
+                    <div id="sticky-menuicon">
+                        <a href="#" class="sb-toggle-right">
+                            <i class="de-icon-menu"></i>
+                        </a>
+                    </div>
 
-        @include('couple')
+                </nav>
 
-    </section>
+            </header><!-- END of NAVIGATION -->
 
-    @include('modal')
+            @include('slider')
 
-    @include('footer')
+            <!--CONTENT SECTION-->
+            <section id="content">
 
-</div> <!-- END of SLIDEBAR CONTENT WRAPPER -->
+                @include('wedding')
 
+                @include('countdown')
+
+                @include('memories')
+
+                @include('couple')
+
+            </section>
+
+            @include('modal')
+
+            @include('footer')
+
+        </div> <!-- END of SLIDEBAR CONTENT WRAPPER -->
+
+
+        <div class="curtain__panel curtain__panel--right curtain-close"></div> <!-- curtain__panel -->
+    </div> <!-- curtain__wrapper -->
+</div> <!-- curtain -->
 <!-- jQuery -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- Pace -->

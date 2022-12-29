@@ -184,7 +184,7 @@ $(document).ready(function() {
     // 04. PACE PRELOADER
     //==================================================================================
     Pace.on('done', function () {
-        $('#preloader').hide();
+
     });
 
     // Pace.on('hide', function () {
@@ -866,6 +866,18 @@ $(document).ready(function() {
         $('link[rel*=pattern]').remove();
     });
 
+    $('.gift-container').on('click', function () {
+        $('.bubble-content').text('Bye Byeeee...!')
+        $(this).addClass('gift-hidden');
+        $('.curtain__panel').removeClass('curtain-close');
+        $('.curtain__panel').removeClass('curtain-close');
+
+        sleep(1500).then(() => {
+            $('.curtain').removeClass('curtain');
+            $('#preloader').hide();
+        });
+    });
+
     var owl = $(".owl_content").owlCarousel({
         rewind: true,
         items: 5,
@@ -964,6 +976,10 @@ $(document).ready(function() {
     });
 });
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function checkEventTimeLine() {
     let numOfEventActive = 0;
     let timeNow = Date.parse($('#timeline-now').val());
@@ -1021,18 +1037,6 @@ function changeUIMemoriesSlider()
 
 function reAlignMemoryImages()
 {
-    const width = $(window).width();
-    //
-    // if (width >= 1600) {
-    //     $('.out-memories-slider').css('padding-left', '9.5%');
-    // } else if (width > 1500) {
-    //
-    // } else if (width > 1400) {
-    //
-    // } else if (width > 1200) {
-    //
-    // }
-
     $('.owl-item.active').each(function () {
         const max_height = $('.owl_content').height();
         const margin_top = Math.floor((max_height - $(this).height()) / 2);

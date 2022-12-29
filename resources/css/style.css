@@ -4082,6 +4082,7 @@ p{
     overflow: hidden;
     margin-top: 10px;
     position: relative;
+    width: 100%;
 }
 
 .out-memories-slider .owl-item {
@@ -4102,7 +4103,7 @@ p{
     transform: scale(0.8);
     -ms-transform: scale(0.8);
     opacity: 0.7;
-    margin: 0 -50px;
+    /*margin: 0 -50px;*/
     z-index: 2;
     position: relative;
 }
@@ -4710,7 +4711,7 @@ p{
     }
 
     .out-memories-slider .active.middle_beside.prev_mid {
-        margin-left: 1.5%;
+        /*margin-left: 1.5%;*/
     }
 
     .out-memories-slider .prev {

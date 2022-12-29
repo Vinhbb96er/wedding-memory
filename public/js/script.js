@@ -870,7 +870,14 @@ $(document).ready(function() {
         rewind: true,
         items: 5,
         loop: true,
-        smartSpeed: 50,
+        smartSpeed: 100,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        freeDrag: true,
         dots: false,
         responsive: {
             0 : {
@@ -1026,12 +1033,12 @@ function reAlignMemoryImages()
     //
     // }
 
-    // $('.owl-item.active').each(function () {
-    //     const max_height = $('.owl_content').height();
-    //     const margin_top = Math.floor((max_height - $(this).height()) / 2);
-    //
-    //     if (margin_top > 0) {
-    //         $(this).css('margin-top', margin_top);
-    //     }
-    // });
+    $('.owl-item.active').each(function () {
+        const max_height = $('.owl_content').height();
+        const margin_top = Math.floor((max_height - $(this).height()) / 2);
+
+        if (margin_top > 0) {
+            $(this).css('margin-top', margin_top);
+        }
+    });
 }

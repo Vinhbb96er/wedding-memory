@@ -27,8 +27,8 @@
     </div>
 
     <!-- ROW-2 -->
-    <div class="row">
-        <div class="out-memmories-slider">
+    <div class="out-memories-container">
+        <div class="out-memories-slider">
             <div class="prev no_select"></div>
             <div class="owl_content owl-carousel owl-theme">
                 @foreach($data['memories'] as $memory)
@@ -38,6 +38,7 @@
                             @foreach($memory['hashtags'] as $hashtag)
                                 <span class="hashtag">#{{ $hashtag }}</span>
                             @endforeach
+                            <span class="emoji">{{ $memory['emoji'] }}</span>
                         </p>
                     </div>
                 @endforeach

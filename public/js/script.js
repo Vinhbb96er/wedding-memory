@@ -543,7 +543,7 @@ $(document).ready(function() {
     //	Chrome and Safari IOS not cannot autoplay audio.
     //	Default audio will reset to mute
     if (isChromeMobile() || isIOS()){
-        var audioElm = document.getElementById('audioID');
+        var audioElm = document.getElementById('music-slider');
 
         if (audioElm != null){
             audioElm.muted = true;
@@ -564,7 +564,7 @@ $(document).ready(function() {
     //----------------------------------------------------------------------------------
     $("#mute-audio").click(function(e){
         e.preventDefault();
-        var audioElm = document.getElementById('audioID');
+        var audioElm = document.getElementById('music-slider');
 
         var on_start = $(this).data("start");
         var mute_icon = $(this).data("mute-icon");
@@ -873,7 +873,7 @@ $(document).ready(function() {
         smartSpeed: 50,
         dots: false,
         responsive: {
-            1 : {
+            0 : {
                 items: 1,
             },
             651 : {
@@ -887,21 +887,24 @@ $(document).ready(function() {
             }
         },
         onTranslated: function(e) {
+            reAlignMemoryImages();
             changeUIMemoriesSlider();
         },
         onInitialized: function (e) {
+            reAlignMemoryImages();
             changeUIMemoriesSlider();
         },
         onResized: function () {
+            reAlignMemoryImages();
             changeUIMemoriesSlider();
         }
     });
 
-    $('.out-memmories-slider .next').click(function(){
+    $('.out-memories-slider .next').click(function(){
         owl.trigger('next.owl.carousel');
     });
 
-    $('.out-memmories-slider .prev').click(function(){
+    $('.out-memories-slider .prev').click(function(){
         owl.trigger('prev.owl.carousel');
     });
 
@@ -1007,4 +1010,28 @@ function changeUIMemoriesSlider()
     $('.owl-item.active').eq(middle_item + 1).addClass('middle_beside').addClass('next_mid');
     $('.owl-item.active').eq(middle_item + 1).nextAll().addClass('next_to_mid');
     $('.owl-item.active').eq(middle_item - 1).prevAll().addClass('prev_to_mid');
+}
+
+function reAlignMemoryImages()
+{
+    const width = $(window).width();
+    //
+    // if (width >= 1600) {
+    //     $('.out-memories-slider').css('padding-left', '9.5%');
+    // } else if (width > 1500) {
+    //
+    // } else if (width > 1400) {
+    //
+    // } else if (width > 1200) {
+    //
+    // }
+
+    // $('.owl-item.active').each(function () {
+    //     const max_height = $('.owl_content').height();
+    //     const margin_top = Math.floor((max_height - $(this).height()) / 2);
+    //
+    //     if (margin_top > 0) {
+    //         $(this).css('margin-top', margin_top);
+    //     }
+    // });
 }

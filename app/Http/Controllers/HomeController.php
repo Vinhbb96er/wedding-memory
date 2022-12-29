@@ -74,29 +74,130 @@ class HomeController extends Controller
             ],
             'memories' => [
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
+                    'image_link' => 'images/memories/1.jpg',
+                    'hashtags' => ['lotte', 'weekend'],
+                    'emoji' => '😄'
                 ],
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
+                    'image_link' => 'images/memories/2.jpg',
+                    'hashtags' => ['ER', 'yearendparty'],
+                    'emoji' => '🤗'
                 ],
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
+                    'image_link' => 'images/memories/3.jpg',
+                    'hashtags' => ['vincom', 'weekend'],
+                    'emoji' => '😆'
                 ],
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
+                    'image_link' => 'images/memories/4.jpg',
+                    'hashtags' => ['sushi', 'che^'],
+                    'emoji' => '😗'
                 ],
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
+                    'image_link' => 'images/memories/5.jpg',
+                    'hashtags' => ['valentine'],
+                    'emoji' => '😍'
                 ],
                 [
-                    'image_link' => 'https://picsum.photos/300/400',
-                    'hashtags' => ['2022/12/12', 'hue'],
-                ]
+                    'image_link' => 'images/memories/6.jpg',
+                    'hashtags' => ['lau', 'rainyday'],
+                    'emoji' => '🌧️✌'
+                ],
+                [
+                    'image_link' => 'images/memories/7.jpg',
+                    'hashtags' => ['flying'],
+                    'emoji' => '🛩'
+                ],
+                [
+                    'image_link' => 'images/memories/8.jpg',
+                    'hashtags' => ['followme'],
+                    'emoji' => '😊'
+                ],
+                [
+                    'image_link' => 'images/memories/9.jpg',
+                    'hashtags' => ['hangmua'],
+                    'emoji' => '👟'
+                ],
+                [
+                    'image_link' => 'images/memories/10.jpg',
+                    'hashtags' => ['hoalu'],
+                    'emoji' => '⛰'
+                ],
+                [
+                    'image_link' => 'images/memories/11.jpg',
+                    'hashtags' => ['baidinh'],
+                    'emoji' => '🗼'
+                ],
+                [
+                    'image_link' => 'images/memories/12.jpg',
+                    'hashtags' => ['tamcoc'],
+                    'emoji' => '🛶'
+                ],
+                [
+                    'image_link' => 'images/memories/13.jpg',
+                    'hashtags' => ['nhatholon', 'hanoi'],
+                    'emoji' => '🏰'
+                ],
+                [
+                    'image_link' => 'images/memories/14.jpg',
+                    'hashtags' => ['mirror'],
+                    'emoji' => '😲'
+                ],
+                [
+                    'image_link' => 'images/memories/15.jpg',
+                    'hashtags' => ['helio', 'onesummerday'],
+                    'emoji' => '😎'
+                ],
+                [
+                    'image_link' => 'images/memories/16.jpg',
+                    'hashtags' => ['eogio'],
+                    'emoji' => '😚'
+                ],
+                [
+                    'image_link' => 'images/memories/17.jpg',
+                    'hashtags' => ['eogio', 'chaclazuidulam'],
+                    'emoji' => '🤣'
+                ],
+                [
+                    'image_link' => 'images/memories/18.jpg',
+                    'hashtags' => ['mot', 'hoian'],
+                    'emoji' => '🤤'
+                ],
+                [
+                    'image_link' => 'images/memories/19.jpg',
+                    'hashtags' => ['coffee'],
+                    'emoji' => '😉'
+                ],
+                [
+                    'image_link' => 'images/memories/20.jpg',
+                    'hashtags' => ['cinema'],
+                    'emoji' => '🎬'
+                ],
+                [
+                    'image_link' => 'images/memories/21.jpg',
+                    'hashtags' => ['nhao~'],
+                    'emoji' => '🍻'
+                ],
+                [
+                    'image_link' => 'images/memories/22.jpg',
+                    'hashtags' => ['cungandinh', 'hue'],
+                    'emoji' => '⛲'
+                ],
+                [
+                    'image_link' => 'images/memories/23.jpg',
+                    'hashtags' => ['chillcoffee', 'everyday'],
+                    'emoji' => '😪☕'
+                ],
+                [
+                    'image_link' => 'images/memories/24.jpg',
+                    'hashtags' => ['savethemoment'],
+                    'emoji' => '💍🍛'
+                ],
+                [
+                    'image_link' => 'images/memories/25.jpg',
+                    'hashtags' => ['sombodywedding'],
+                    'emoji' => '🤢'
+                ],
             ],
             'couple' => [
                 'v_image_link' => 'images/weddings/single-v.jpg',

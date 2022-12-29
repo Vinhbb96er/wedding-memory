@@ -48,7 +48,7 @@
     <div class="curtain__wrapper">
         <div class="gift-container">
             <div class="bubble">
-                <div class="bubble-content">Click me...!</div>
+                <div class="bubble-content">Chờ một chút nha...!</div>
             </div>
             <div class="gift">
                 <img src="./images/icons/gift.gif"/>

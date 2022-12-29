@@ -5357,3 +5357,15 @@ div.curtain__panel--right.curtain-close {
     margin-left: -10px;
     margin-bottom: -20px;
 }
+
+.vibrate-alert {
+    animation: tilt-shaking 0.15s infinite
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}

@@ -866,15 +866,19 @@ $(document).ready(function() {
         $('link[rel*=pattern]').remove();
     });
 
-    $('.gift-container').on('click', function () {
-        $('.bubble-content').text('Bye Byeeee...!')
-        $(this).addClass('gift-hidden');
-        $('.curtain__panel').removeClass('curtain-close');
-        $('.curtain__panel').removeClass('curtain-close');
+    Pace.on('done', function () {
+        $('.bubble-content').text('Click me...!');
+        $('.bubble').addClass('vibrate-alert');
+        $('.gift-container').on('click', function () {
+            $('.bubble-content').text('Bye Byeeee...!')
+            $(this).addClass('gift-hidden');
+            $('.curtain__panel').removeClass('curtain-close');
+            $('.curtain__panel').removeClass('curtain-close');
 
-        sleep(1500).then(() => {
-            $('.curtain').removeClass('curtain');
-            $('#preloader').hide();
+            sleep(2000).then(() => {
+                $('.curtain').removeClass('curtain');
+                $('#preloader').hide();
+            });
         });
     });
 

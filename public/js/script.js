@@ -952,7 +952,7 @@ $(document).ready(function() {
 
         $.ajax({
             'url': url,
-            'type': 'GET',
+            'type': 'POST',
             'data': data,
         });
 

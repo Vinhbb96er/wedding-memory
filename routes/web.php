@@ -13,5 +13,5 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/congratulate', 'HomeController@store')->name('congratulate');
+Route::post('/congratulate', 'HomeController@store')->name('congratulate');
 

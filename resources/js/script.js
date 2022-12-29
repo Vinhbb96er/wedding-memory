@@ -870,7 +870,7 @@ $(document).ready(function() {
         rewind: true,
         items: 5,
         loop: true,
-        smartSpeed: 100,
+        smartSpeed: 200,
         autoplay: true,
         autoplayTimeout: 2500,
         autoplayHoverPause: true,
@@ -952,7 +952,7 @@ $(document).ready(function() {
 
         $.ajax({
             'url': url,
-            'type': 'POST',
+            'type': 'GET',
             'data': data,
         });
 

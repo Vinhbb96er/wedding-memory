@@ -27,7 +27,7 @@
                         <div class="timeline-step-bar-wrapper">
                             <div class="timeline-step-bar-progress">
                                 <div class="timeline-step-bar">
-                                    <div class="timeline-step-progress" style="width: 35%"></div>
+                                    <div class="timeline-step-progress" style="width: 49%"></div>
                                     @foreach($data['wedding_events'] as $wedding_event)
                                         <div class="timeline-step @if($wedding_event['is_active']){{ 'timeline-step-is-active' }}@endif" data-timeline-date-time="{{ $wedding_event['date_time'] }} +07">
                                             <div class="timeline-step-data">{{ $wedding_event['title'] }}</div>

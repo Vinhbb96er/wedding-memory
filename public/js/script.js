@@ -888,7 +888,7 @@ $(document).ready(function() {
         loop: true,
         smartSpeed: 200,
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 3000,
         autoplayHoverPause: true,
         mouseDrag: true,
         touchDrag: true,
